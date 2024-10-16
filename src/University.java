@@ -35,7 +35,7 @@ public class University {
         university_website_list.add("www.pup.edu.ph");
 
 
-        //Print result
+        //Print results
         for (int i = 0; i < university_name_list.size(); i++) {
             System.out.println("ID: " + university_id_list.get(i) + ", Name: " + university_name_list.get(i) + ", Location: " + university_location_list.get(i) + ", Website: " + university_website_list.get(i));
         }
