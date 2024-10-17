@@ -11,7 +11,7 @@ public class Restaurant {
         restaurant_name_list.add("Manam Comfort Filipino");
         restaurant_name_list.add("Ramen Nagi");
 
-        //List for restaurants' names
+        //List for restaurants' cuisine type
         ArrayList<String> restaurant_cuisinetype_list = new ArrayList<>();
         restaurant_cuisinetype_list.add("Buffet");
         restaurant_cuisinetype_list.add("Fine Dining");
@@ -20,14 +20,14 @@ public class Restaurant {
         restaurant_cuisinetype_list.add("Japanese");
 
 
-        //List for restaurants' names
+        //List for restaurants' id
         ArrayList<Integer> restaurant_id_list = new ArrayList<>();
         for (int i = 1; i <= 5; i++) {
             restaurant_id_list.add(i);
         }
 
 
-        //List for restaurants' names
+        //List for restaurants' websites
         ArrayList<String> restaurant_websiteorcontract_list = new ArrayList<>();
         restaurant_websiteorcontract_list.add("www.vikings.ph");
         restaurant_websiteorcontract_list.add("www.antoniosrestaurant.ph");
